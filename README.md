@@ -1,69 +1,55 @@
-Perfect 🚀 You’ve built your own **Monkeytype clone** typing test. Here’s a clean `README.md` you can drop straight into your project:
+Got it 👍 Since you already have a working **Typing Test app** (Monkeytype clone), let’s update your `README.md` to reflect the latest changes, instructions, and usage.
 
-```markdown
-# 🐵 Monkeytype Clone
+Here’s a clean and modern version you can drop in:
 
-A simple typing test app built with **React**, **TypeScript**, **Tailwind CSS**, and **Vite**.  
-It allows users to practice typing by displaying random paragraphs and tracking their typing speed, accuracy, and progress.
+````markdown
+# 📝 Typing Test (Monkeytype Clone)
 
----
-
-## ✨ Features
-- ⌨️ Random paragraphs for typing practice  
-- ⏱️ 30-second countdown timer  
-- 📊 Accuracy and speed tracking  
-- 🎨 Styled with Tailwind CSS  
-- ⚡ Fast build with Vite  
+A simple typing test application built with **React + TypeScript + Vite + TailwindCSS**.  
+It lets you practice typing speed and accuracy, similar to [monkeytype.com](https://monkeytype.com).
 
 ---
 
-## 📂 Project Structure
-```
-
-monkeytype/
-├── public/               # Static assets
-├── src/
-│   ├── assets/           # Images, fonts, etc.
-│   ├── components/
-│   │   └── TypingTest.tsx   # Main typing test component
-│   ├── App.tsx           # App entry
-│   ├── index.css         # Tailwind styles
-│   └── main.tsx          # React DOM entry
-├── package.json
-├── tsconfig.json
-├── tailwind.config.js
-├── vite.config.ts
-└── README.md
-
-````
+## 🚀 Features
+- ⏱ **30-second timer** – test your speed in a fixed time limit
+- 🖊 **Random paragraphs** – words are generated from shuffled sample texts
+- 🎯 **Real-time stats** – WPM, Accuracy, Words Typed, Correct/Incorrect counts
+- ✅ **Character-level feedback** – highlights correct (green) and incorrect (red) letters
+- 🔄 **Restart option** – reset the test anytime
+- 📱 **Responsive UI** – clean and modern design with TailwindCSS
 
 ---
 
-## 🚀 Getting Started
+## 🛠 Tech Stack
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-### 1. Clone the repository
+---
+
+## 📦 Installation
+
+Clone the repo:
+
 ```bash
-git clone https://github.com/your-username/monkeytype-clone.git
-cd monkeytype-clone
+git clone https://github.com/your-username/monkeytype.git
+cd monkeytype
 ````
 
-### 2. Install dependencies
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-### 3. Run the development server
+Run in development mode:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
----
-
-## 🛠️ Build for Production
+Build for production:
 
 ```bash
 npm run build
@@ -77,28 +63,13 @@ npm run preview
 
 ---
 
-## 📸 Screenshot
 
-(Add a screenshot of your app here once running!)
+### Typing in Progress
 
----
+> Shows real-time highlighted words and timer countdown.
 
-## 🧑‍💻 Tech Stack
+### Results Screen
 
-* **React 19**
-* **TypeScript**
-* **Vite**
-* **Tailwind CSS**
+> Displays WPM, accuracy, and stats after the test.
 
 ---
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-```
-
----
-
-Would you like me to also include a **Usage Guide** in the README (e.g., how to start typing, space to go to next word, timer auto-stops)?
-```
