@@ -1,7 +1,3 @@
-Got it 👍 Since you already have a working **Typing Test app** (Monkeytype clone), let’s update your `README.md` to reflect the latest changes, instructions, and usage.
-
-Here’s a clean and modern version you can drop in:
-
 ````markdown
 # 📝 Typing Test (Monkeytype Clone)
 
